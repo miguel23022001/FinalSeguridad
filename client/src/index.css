@@ -1,0 +1,12 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  background: #202020;
+  color: white;
+}
+
+.content-container {
+  height: calc(100vh - theme("spacing.20"));
+}

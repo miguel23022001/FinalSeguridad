@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  tasksdb:
+    image: mongo
+    container_name: passwordsdb
+    restart: always
+    ports:
+      - 27017:27017
+    
+  
+
